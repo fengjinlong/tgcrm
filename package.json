@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node ./dist/app.js",
     "test": "jest --coverage --reporters default jest-stare",
     "client:dev": "scripty",
-    "client:prod": "webpack --mode production --config webpack.config.js",
+    "client:build": "webpack --mode production --config webpack.config.js",
     "server:start": "cross-env NODE_ENV=development ts-node-dev --respawn --transpileOnly ./src/server/app.ts",
     "server:build": "webpack --mode production --config webpack.ser.config.js",
     "server:lint": "scripty",
