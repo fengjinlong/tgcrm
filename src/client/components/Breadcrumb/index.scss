@@ -1,0 +1,13 @@
+@import '../../assets/styles/theme.scss';
+
+.bread-cont {
+  background: $bg-color;
+  padding: 10px 28px;
+  .bread-box{
+    margin-bottom: 5px;
+  }
+  .bread-title{
+    font-size: 18px;
+  }
+  border-top: 4px solid #eee;
+}

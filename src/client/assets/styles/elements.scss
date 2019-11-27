@@ -1,0 +1,32 @@
+// created by xfz, apply for common component
+@mixin flex($direction:direction, $inline:block) {
+  display: if($inline==block,flex,inline-block);
+  flex-direction: $direction;
+  flex-wrap: wrap;
+}
+
+@mixin compage($size:14px,$width:1150px,$height:100%,$color:#666){
+  width: $width;
+  height: $height;
+  margin: 0 auto;
+  color: $color;
+  font-size: $size;
+}
+
+@mixin list($direction:column) {
+  @include flex($direction)
+}
+
+@mixin panel($bgColor:#FFF,$padding:24px,$color:#333,$txtSize:16px) {
+  font-family: PingFangSC-Regular;
+  background: $bgColor;
+  padding: $padding;
+  >h4{
+    font-family: PingFangSC-Medium;
+    font-weight: 700;
+    color: $color;
+    font-size: $txtSize;
+    padding: 0;
+    margin: 0;
+  }
+}

@@ -1,0 +1,1477 @@
+[2019-11-05T20:42:23.564] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/index/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/index/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-05T20:42:26.024] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/index/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/index/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-05T20:49:20.575] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/xfz/Desktop/yd/yd-crmsystem/http:/localhost:3000/public/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/xfz/Desktop/yd/yd-crmsystem/http:/localhost:3000/public/index.html' }
+[2019-11-05T20:50:04.303] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/xfz/Desktop/yd/yd-crmsystem/http:/localhost:3000/public/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/xfz/Desktop/yd/yd-crmsystem/http:/localhost:3000/public/index.html' }
+[2019-11-05T20:52:21.895] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/xfz/Desktop/yd/yd-crmsystem/http:/localhost:3000/public/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/xfz/Desktop/yd/yd-crmsystem/http:/localhost:3000/public/index.html' }
+[2019-11-05T20:53:24.542] [ERROR] cheese - { [Error: ENOENT: no such file or directory, open '/Users/xfz/Desktop/yd/yd-crmsystem/http:/localhost:3000/public/index.html']
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path:
+   '/Users/xfz/Desktop/yd/yd-crmsystem/http:/localhost:3000/public/index.html' }
+[2019-11-05T20:54:40.328] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/index/0',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-05T21:13:05.813] [ERROR] cheese - AwilixResolutionError: Could not resolve 'safeRequest'.
+
+Resolution path: apiService -> safeRequest
+    at resolve (/Users/xfz/Desktop/yd/yd-crmsystem/node_modules/_awilix@4.2.2@awilix/src/container.ts:450:15)
+    at Object.get (/Users/xfz/Desktop/yd/yd-crmsystem/node_modules/_awilix@4.2.2@awilix/src/container.ts:241:30)
+    at new ApiService (/Users/xfz/Desktop/yd/yd-crmsystem/src/server/service/ApiService.ts:6:17)
+    at newClass (/Users/xfz/Desktop/yd/yd-crmsystem/node_modules/_awilix@4.2.2@awilix/src/resolvers.ts:200:20)
+    at Object.resolve (/Users/xfz/Desktop/yd/yd-crmsystem/node_modules/_awilix@4.2.2@awilix/src/resolvers.ts:465:14)
+    at resolve (/Users/xfz/Desktop/yd/yd-crmsystem/node_modules/_awilix@4.2.2@awilix/src/container.ts:488:31)
+    at Object.get (/Users/xfz/Desktop/yd/yd-crmsystem/node_modules/_awilix@4.2.2@awilix/src/container.ts:241:30)
+    at new ApiController (/Users/xfz/Desktop/yd/yd-crmsystem/src/server/controller/ApiController.ts:6:17)
+    at newClass (/Users/xfz/Desktop/yd/yd-crmsystem/node_modules/_awilix@4.2.2@awilix/src/resolvers.ts:200:20)
+    at Object.resolve (/Users/xfz/Desktop/yd/yd-crmsystem/node_modules/_awilix@4.2.2@awilix/src/resolvers.ts:465:14)
+[2019-11-05T21:15:18.589] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/test',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-05T21:15:25.461] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-05T21:15:28.719] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-05T21:16:39.473] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/test',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-05T21:41:38.505] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/index/0',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-05T23:11:19.373] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/index/0',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T20:40:06.302] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        purpose: 'prefetch',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T20:40:16.101] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/favicon.ico',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'image',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'image/webp,image/apng,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/api/test',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/favicon.ico',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:21:35.166] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/index',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:21:41.464] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/index/1',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:21:59.669] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/index/0',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:22:38.505] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:22:49.117] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:23:44.841] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:23:59.082] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:24:06.476] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:24:10.151] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/index',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:24:15.030] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/index/1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:24:22.070] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/1',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:24:24.645] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        'sec-fetch-dest': 'document',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/2',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:24:42.408] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:26:05.570] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:26:08.585] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:26:25.053] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:27:07.974] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:28:40.876] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T21:28:43.010] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-11T22:14:24.977] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/styles/main.css',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        'sec-ch-ua': 'Google Chrome 78',
+        'sec-fetch-dest': 'style',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36',
+        accept: 'text/css,*/*;q=0.1',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'systemnamefortaotie=Magellan; MISP_SUB_TICKET=4eadaf8d62fe6d25b6136e06882e3e860002075000; lang=zh-CN; country=BR; locale=zh-CN; _OMGID=b505b364-f517-4739-bae0-1540fece9b06; adminId=238339; username=gaozifeng; userInfo=%7B%22opId%22%3A238339%2C%22opName%22%3A%22gaozifeng%22%2C%22adminName%22%3A%22gaozifeng%22%2C%22username%22%3A%22gaozifeng%22%2C%22adminId%22%3A238339%2C%22opNameCn%22%3A%22%E9%AB%98%E6%A2%93%E5%B3%B0%22%2C%22email%22%3A%22gaozifeng%40didiglobal.com%22%2C%22phone%22%3A%2213810001545%22%2C%22dept%22%3A%22%E5%9B%BD%E9%99%85%E5%8C%96%E4%BA%A7%E5%93%81%E6%8A%80%E6%9C%AF%E9%83%A8IBT-%E5%9B%BD%E9%99%85%E5%8C%96%E4%B8%9A%E5%8A%A1%E6%8A%80%E6%9C%AF%22%2C%22currentLang%22%3A%22zh-CN%22%2C%22lang%22%3A%22zh-CN%22%2C%22currentCountry%22%3A%22BR%22%2C%22country%22%3A%22BR%22%2C%22currentUtc%22%3A%22-120%22%2C%22headImg%22%3A%22http%3A%2F%2Fhome.didichuxing.com%2Fdidifile%2Favatar%2Fgaozifeng.jpg%22%2C%22appId%22%3A%2233%22%2C%22admin%22%3Afalse%7D; utc=-120' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/styles/main.css',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T11:42:18.617] [ERROR] cheese - TypeError: server_entry_js_1.default is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:30:62)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T11:42:22.055] [ERROR] cheese - TypeError: server_entry_js_1.default is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:30:62)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T11:42:22.202] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/favicon.ico',
+     header:
+      { host: '127.0.0.1:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        accept: 'image/webp,image/apng,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://127.0.0.1:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/favicon.ico',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T11:43:40.948] [ERROR] cheese - TypeError: serverEntry is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:30:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T11:48:01.676] [ERROR] cheese - TypeError: server_entry_js_1.default is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:63)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T11:48:02.265] [ERROR] cheese - TypeError: server_entry_js_1.default is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:63)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T11:48:02.526] [ERROR] cheese - TypeError: server_entry_js_1.default is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:63)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T11:48:02.701] [ERROR] cheese - TypeError: server_entry_js_1.default is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:63)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T11:48:02.980] [ERROR] cheese - TypeError: server_entry_js_1.default is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:63)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T14:23:05.873] [ERROR] cheese - TypeError: serverEntry is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:37:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T14:23:06.033] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/favicon.ico',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        accept: 'image/webp,image/apng,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/favicon.ico',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T14:23:11.187] [ERROR] cheese - TypeError: serverEntry is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:37:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T14:29:01.708] [ERROR] cheese - TypeError: serverEntry is not a function
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:37:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T14:33:23.867] [ERROR] cheese - Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1590:13)
+    at useContext (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1598:20)
+    at h (C:\my\yd-crmsystem-xfz\dist\assets\scripts\server-entry.js:1:4606)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:37:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T14:33:25.074] [ERROR] cheese - Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1590:13)
+    at useContext (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1598:20)
+    at h (C:\my\yd-crmsystem-xfz\dist\assets\scripts\server-entry.js:1:4606)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:37:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T14:33:29.275] [ERROR] cheese - Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1590:13)
+    at useContext (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1598:20)
+    at h (C:\my\yd-crmsystem-xfz\dist\assets\scripts\server-entry.js:1:4606)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:37:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T14:39:07.629] [ERROR] cheese - Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1590:13)
+    at useContext (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1598:20)
+    at h (C:\my\yd-crmsystem-xfz\dist\assets\scripts\server-entry.js:1:4606)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T14:39:43.284] [ERROR] cheese - Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1590:13)
+    at useContext (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1598:20)
+    at h (C:\my\yd-crmsystem-xfz\dist\assets\scripts\server-entry.js:1:4606)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at fulfilled (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:14:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-11-21T14:42:10.594] [ERROR] cheese - Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1590:13)
+    at useContext (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1598:20)
+    at h (C:\my\yd-crmsystem-xfz\dist\assets\scripts\server-entry.js:1:4606)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:13:12)
+    at IndexController.index (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:69:16)
+[2019-11-21T14:52:08.847] [ERROR] cheese - Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1590:13)
+    at useContext (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1598:20)
+    at h (C:\my\yd-crmsystem-xfz\dist\assets\scripts\server-entry.js:1:4606)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:13:12)
+    at IndexController.index (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:69:16)
+[2019-11-21T14:52:10.082] [ERROR] cheese - Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1590:13)
+    at useContext (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1598:20)
+    at h (C:\my\yd-crmsystem-xfz\dist\assets\scripts\server-entry.js:1:4606)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:13:12)
+    at IndexController.index (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:69:16)
+[2019-11-21T14:57:54.114] [ERROR] cheese - Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://fb.me/react-invalid-hook-call for tips about how to debug and fix this problem.
+    at resolveDispatcher (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1590:13)
+    at useContext (C:\my\yd-crmsystem-xfz\node_modules\_react@16.12.0@react\cjs\react.development.js:1598:20)
+    at h (C:\my\yd-crmsystem-xfz\dist\assets\scripts\server-entry.js:1:4606)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:51)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:13:12)
+    at IndexController.index (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:69:16)
+[2019-11-21T15:02:44.406] [ERROR] cheese - Error: ReactDOMServer does not yet support Suspense.
+    at ReactDOMServerRenderer.render (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:3735:25)
+    at ReactDOMServerRenderer.read (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:3536:29)
+    at Object.renderToString (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:4245:27)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:36)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:13:12)
+    at IndexController.index (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:69:16)
+[2019-11-21T15:02:45.148] [ERROR] cheese - Error: ReactDOMServer does not yet support Suspense.
+    at ReactDOMServerRenderer.render (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:3735:25)
+    at ReactDOMServerRenderer.read (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:3536:29)
+    at Object.renderToString (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:4245:27)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:36)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:13:12)
+    at IndexController.index (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:69:16)
+[2019-11-21T15:02:45.601] [ERROR] cheese - Error: ReactDOMServer does not yet support Suspense.
+    at ReactDOMServerRenderer.render (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:3735:25)
+    at ReactDOMServerRenderer.read (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:3536:29)
+    at Object.renderToString (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:4245:27)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:36)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:13:12)
+    at IndexController.index (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:69:16)
+[2019-11-21T15:02:46.065] [ERROR] cheese - Error: ReactDOMServer does not yet support Suspense.
+    at ReactDOMServerRenderer.render (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:3735:25)
+    at ReactDOMServerRenderer.read (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:3536:29)
+    at Object.renderToString (C:\my\yd-crmsystem-xfz\node_modules\_react-dom@16.12.0@react-dom\cjs\react-dom-server.node.development.js:4245:27)
+    at IndexController.<anonymous> (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:35:36)
+    at step (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:42:23)
+    at Object.next (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:23:53)
+    at C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:17:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:13:12)
+    at IndexController.index (C:\my\yd-crmsystem-xfz\src\server\controller\IndexController.ts:69:16)
+[2019-11-21T15:45:00.344] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T15:45:17.775] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/index',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T15:46:12.409] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/index',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T15:46:16.257] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T15:48:58.605] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/index/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T15:51:02.379] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/index/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T15:51:12.988] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T15:58:59.178] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T16:04:30.272] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T16:04:31.333] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T16:17:21.256] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-21T16:17:39.325] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/api',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
