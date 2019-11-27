@@ -30,7 +30,7 @@ if (!_isDev) imageloaders.push({
     bypassOnDebug: true
   }
 })
-
+console.log(_mode)
 const baseConfig = {
   mode: _mode,
   target: 'web',
@@ -61,8 +61,8 @@ const baseConfig = {
         include: [resolve("src")],
         exclude: /node_modules/,
         use: {
-          loader: 'babel-loader',
           // loader:"awesome-typescript-loader"
+          loader: 'babel-loader',
           options: {
             plugins: _isDev ? ['dynamic-import-node'] : []
           }

@@ -1475,3 +1475,115 @@ See https://fb.me/react-invalid-hook-call for tips about how to debug and fix th
   req: '<original node req>',
   res: '<original node res>',
   socket: '<original node socket>' }
+[2019-11-27T17:52:27.304] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA; userName=%E5%86%AF%E9%87%91%E9%BE%99; SPEM_SESSIONID=39ab2d37-2ef0-4140-b151-b437df8e26c9' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-27T17:52:34.636] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA; userName=%E5%86%AF%E9%87%91%E9%BE%99; SPEM_SESSIONID=39ab2d37-2ef0-4140-b151-b437df8e26c9' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-27T17:52:34.953] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/favicon.ico',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        accept: 'image/webp,image/apng,image/*,*/*;q=0.8',
+        'sec-fetch-site': 'same-origin',
+        'sec-fetch-mode': 'no-cors',
+        referer: 'http://localhost:8081/',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA; userName=%E5%86%AF%E9%87%91%E9%BE%99; SPEM_SESSIONID=39ab2d37-2ef0-4140-b151-b437df8e26c9' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/favicon.ico',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-27T17:52:35.903] [ERROR] cheese - { request:
+   { method: 'GET',
+     url: '/',
+     header:
+      { host: 'localhost:8081',
+        connection: 'keep-alive',
+        pragma: 'no-cache',
+        'cache-control': 'no-cache',
+        'upgrade-insecure-requests': '1',
+        'user-agent':
+         'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36',
+        'sec-fetch-user': '?1',
+        accept:
+         'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+        'sec-fetch-site': 'none',
+        'sec-fetch-mode': 'navigate',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        cookie:
+         'uniqueVisitorId=058e474a-c4d7-744e-2962-d7b5269fb1a2; Hm_lvt_5063a5855365d64c8ca52f502cef3e2e=1568598888,1569737210; io=nVi7gH1_sg5UakK3AAAA; userName=%E5%86%AF%E9%87%91%E9%BE%99; SPEM_SESSIONID=39ab2d37-2ef0-4140-b151-b437df8e26c9' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header: [Object: null prototype] {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }

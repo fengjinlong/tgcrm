@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 app.js",
+    "start": "node ./dist/app.js",
     "test": "jest --coverage --reporters default jest-stare",
     "client:dev": "scripty",
     "client:prod": "webpack --mode production --config webpack.config.js",

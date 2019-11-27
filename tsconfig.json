@@ -17,8 +17,7 @@
       "@assets/*": ["client/assets"],
       "@models/*": ["client/models/*"],
       "@pages/*": ["client/pages/*"],
-      "@stores/*": ["client/stores"],
-      "@pages/*": ["client/pages/*"]
+      "@stores/*": ["client/stores"]
     }
   },
   "include": [
