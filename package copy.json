@@ -17,6 +17,7 @@
     "test:e2e": "scripty",
     "test:api": "scripty",
     "clean": "rimraf dist",
+    "precommit": "eslint --ext .js --ext .jsx src/",
     "profile:client": "webpack --mode production --profile --json > stats.json",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "lint--fix": "tslint -c tslint.json 'src/**/*.ts' --fix"
