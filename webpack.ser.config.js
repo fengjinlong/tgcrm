@@ -35,15 +35,17 @@ const baseConfig = {
   mode: 'production',
   target: 'node',
   entry: {
-    app: join(__dirname, './src/client/indexServer.tsx')
+    app: join(__dirname, './src/client/indexServerEntry.tsx')
   },
+  // 服务端依赖全干掉
   externals: Object.keys(require('./package.json').dependencies),
   output: {
     // filename: _isDev ? 'scripts/[name].js' : 'scripts/[name].[contenthash:5].js',
     // path: join(__dirname, './dist/assets'),
     // publicPath: env.publicPath
 
-    filename: "scripts/server-entry.js",
+    filename: "server-entry.js",
+    // path:join(__dirname, './src/server'),
     path:join(__dirname, './dist/assets'),
     libraryTarget: 'commonjs2'
   },

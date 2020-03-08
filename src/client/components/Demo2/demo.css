@@ -1,8 +1,0 @@
-:root{
-    --navColor: yellowgreen;
-}
-.components-demo{
-    & .nav{
-        color: var(--navColor)
-    }
-}

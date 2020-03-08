@@ -1,8 +1,8 @@
 module.exports = {
   'development': {
-    publicPath: '/'
+    publicPath: './'
   },
   'production': {
-    publicPath: '/public/'
+    publicPath: '../assets/'
   }
 }

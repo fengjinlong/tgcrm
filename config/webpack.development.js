@@ -2,7 +2,7 @@ const { join, resolve } = require('path')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const WebpackBuildNotifierPlugin = require('webpack-build-notifier')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const Jarvis = require('webpack-jarvis')
+// const Jarvis = require('webpack-jarvis')
 
 module.exports = {
   devtool: 'eval-source-map',
@@ -24,14 +24,14 @@ module.exports = {
     }
   },
   plugins: [
-    new Jarvis({ port: 1337 }),
+    // new Jarvis({ port: 1337 }),
     new HtmlWebpackPlugin({
-      title: '京程一灯CRM',
+      title: 'CRM',
       filename: 'index.html',
       template: resolve(__dirname, '../src/client/template.html')
     }),
     new WebpackBuildNotifierPlugin({
-      title: '🌶 老袁的Webpack Build',
+      title: '🌶 Webpack Build',
       logo: join(__dirname, '../favicon.png'),
       suppressSuccess: true
     }),

@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 // const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 module.exports = {
   externals: {
@@ -81,7 +81,8 @@ module.exports = {
     // }),
     new HtmlWebpackPlugin({
       title: '京程一灯CRM系统',
-      filename: '../views/index.html',
+      // filename: resolve(__dirname, '../dist/views/index.html'),
+      filename: resolve(__dirname, '../dist/views/index.html'),
       template: resolve(__dirname, '../src/client/index-prod.html'),
       minify: {
         minifyJS: true,
@@ -90,6 +91,6 @@ module.exports = {
         removeAttributeQuotes: true
       }
     }),
-    new BundleAnalyzerPlugin({ analyzerPort: 3011 }),
+    // new BundleAnalyzerPlugin({ analyzerPort: 3011 }),
   ]
 }

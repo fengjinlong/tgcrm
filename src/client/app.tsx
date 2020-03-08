@@ -1,26 +1,18 @@
 import * as React from 'react'
-import { BrowserRouter } from 'react-router-dom'
-import { observer } from 'mobx-react-lite'
-// import { message } from 'antd'
 import routes from './routes'
-import YdStore from '@models/YdStore'
+import {BrowserRouter, HashRouter} from 'react-router-dom'
+import {storeClient} from './store/index'
+import { message } from 'antd'
 import '@assets/styles/main.scss'
-import ErrorBoundary from '@components/Error'
 
-// message.config({ duration: 2 })
-// window.message = message
+message.config({ duration: 2 })
+window.message = message
 
-const { useContext } = React
-
-const App = observer(() => {
-  const ydStore = useContext(YdStore)
-  return (
-    <ErrorBoundary>
-      <BrowserRouter basename="/">
-        {routes(ydStore)}
-      </BrowserRouter>
-    </ErrorBoundary>
-  )
-})
-
+const App = () => {
+    return (
+        <BrowserRouter basename='/'>
+            {routes(storeClient())}
+        </BrowserRouter>
+    )
+}
 export default App

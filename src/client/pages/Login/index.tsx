@@ -1,109 +1,116 @@
 import * as React from 'react'
 import { NavLink, RouteComponentProps } from 'react-router-dom'
 import { observer } from 'mobx-react-lite'
-import { Form, Icon, Input, Button } from 'antd'
+import { Form, Input, Button } from 'antd'
 import YdStore from '@models/YdStore'
 import { setStorage } from '@utils/storage'
 import './index.scss'
+import {
+    UserOutlined,
+    LockOutlined
+} from '@ant-design/icons'
 
 const { useState, useEffect, useContext } = React
 
-const Login = observer((routerProps: RouteComponentProps) => {
-  const { location, history } = routerProps
-  
-  const redirectUrl = location.state ? location.state.from.pathname : '/';
+// const Login = observer((routerProps: RouteComponentProps) => {
+const Login = (routerProps) => {
+    const { location, history } = routerProps
+    console.log(routerProps)
 
-  const ydstore = useContext(YdStore)
+    const redirectUrl = location.state ? location.state.from.pathname : '/';
+    // const ydstore = useContext(YdStore)
 
-  // const RedirectUrl = location.state ? location.state.from.pathname : "/index/index";
+    const [user, setUser] = useState({
+        username: '1',
+        password: '1'
+    })
 
-  const { 0: user, 1: setUser } = useState({
-    username: '',
-    password: ''
-  })
-  
-  useEffect(() => {
-    document.title = '系统登录'
-  }, [])
+    useEffect(() => {
+        document.title = '系统登录'
+    }, [])
 
-  const onInputChange = ({ target: { name, value } }) => setUser({...user, [name]: value })
-
-  const onInputKeyUp = ({ keyCode }) => keyCode == 13 && onSubmit()
-
-  const checkLogin = ({ username, password }) => {
-    if (!username) {
-      return {
-        status: false,
-        msg: '用户名不能为空！'
-      }
+    const onInputChange = ({ target: { name, value } }) => {
+        setUser({ ...user, [name]: value })
     }
-    
-    if (!password) {
-      return {
-        status: false,
-        msg: '密码不能为空！'
-      }
+
+    const onInputKeyUp = ({ keyCode }) => keyCode == 13 && onSubmit()
+
+    const checkLogin = ({ username, password }) => {
+        if (!username) {
+            return {
+                status: false,
+                msg: '用户名不能为空！'
+            }
+        }
+
+        if (!password) {
+            return {
+                status: false,
+                msg: '密码不能为空！'
+            }
+        }
+
+        return {
+            status: true,
+            msg: '验证通过'
+        }
     }
-    
-    return {
-      status : true,
-      msg : '验证通过'
+
+    const onSubmit = async () => {
+        const { status, msg } = checkLogin(user)
+
+        if (status) {
+          try {
+            // const res = await ydstore.login(user)
+            // setStorage('token', res)
+            history.push(redirectUrl)      
+          } catch (err) {
+            console.log(err)
+            window.message.error('用户名或密码错误')
+          }
+        } else{
+          window.message.error(msg)
+        }          
     }
-  }
 
-  const onSubmit = async () => {
-    const { status, msg } = checkLogin(user)
+    return (
+        <section className="page-login">
+            <section className="login-panel">
+                <h1 className="login-panel-title">系统登录</h1>
+                <div className="form-group">
+                    <Input prefix={<UserOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
+                        name="username"
+                        placeholder="用户名"
+                        value={user.username}
+                        onKeyUp={onInputKeyUp}
+                        onChange={onInputChange}
+                    />
+                </div>
+                <div className="form-group">
+                    <Input
+                        prefix={<LockOutlined style={{ color: 'rgba(0,0,0,.25)' }} />}
+                        name="password"
+                        type="password"
+                        placeholder="密码"
+                        value={user.password}
+                        onKeyUp={onInputKeyUp}
+                        onChange={onInputChange}
+                    />
+                </div>
+                <div className="login-btn-group">
+                    <Button
+                        type="primary"
+                        className="login-form-button"
+                        onClick={onSubmit}
+                    >登录</Button>
+                </div>
+            </section>
+            <nav className="nav-bar">
+                <NavLink to="/about" className="nav-bar-item">关于我们</NavLink>
+            </nav>
 
-    if (status) {
-      try {
-        const res = await ydstore.login(user)
-        setStorage('token', res)
-        history.push(redirectUrl)        
-      } catch (err) {
-        console.log(err)
-        // window.message.error('用户名或密码错误')
-      }
-    } else{
-      // window.message.error(msg)
-    }          
-  }
-
-  return (
-    <section className="page-login">
-      <section className="login-panel">
-        <h1 className="login-panel-title">系统登录</h1>
-        <div className="form-group">
-          <Input prefix={<Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />}
-            name="username"
-            placeholder="用户名"
-            onKeyUp={onInputKeyUp}
-            onChange={onInputChange}
-          />
-        </div>
-        <div className="form-group">
-          <Input
-            prefix={<Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />}
-            name="password"
-            type="password"
-            placeholder="密码"
-            onKeyUp={onInputKeyUp}
-            onChange={onInputChange}
-          />
-        </div>
-        <div className="login-btn-group">
-          <Button
-            type="primary"
-            className="login-form-button"
-            onClick={onSubmit}
-          >登录</Button>  
-        </div>
-      </section>
-      <nav className="nav-bar">
-        <NavLink to="/about" className="nav-bar-item">关于我们</NavLink>  
-      </nav>
-      
-    </section>
-  )
-})
+        </section>
+    )
+}
 
 export default Login

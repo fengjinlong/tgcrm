@@ -30,7 +30,6 @@ if (!_isDev) imageloaders.push({
     bypassOnDebug: true
   }
 })
-console.log(_mode)
 const baseConfig = {
   mode: _mode,
   target: 'web',
@@ -38,8 +37,9 @@ const baseConfig = {
     app: join(__dirname, './src/client/index.tsx')
   },
   output: {
-    filename: _isDev ? 'scripts/[name].js' : 'scripts/[name].[contenthash:5].js',
+    filename: _isDev ? '[name].js' : '[name].[contenthash:5].js',
     path: join(__dirname, './dist/assets'),
+    // path: join(__dirname, './src/server/assets'),
     publicPath: env.publicPath
   },
   resolve: {
@@ -70,10 +70,13 @@ const baseConfig = {
       },
       {
         test: /\.(sa|sc|c)ss$/,
-        use: [
-          ...baseCssLoaders,
-          ...cssLoaders
-        ]
+        loaders: ['style-loader', 'css-loader', 'sass-loader'],
+        // use: [
+        //   ...baseCssLoaders,
+        //   ...cssLoaders
+        // ]
+        // test: /\.(sa|sc|c)ss$/,
+        // loader: "style-loader!css-loader?modules"
       },
       {
         test: /.svg$/,
